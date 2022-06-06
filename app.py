@@ -282,23 +282,10 @@ async def process(ev: events.NewMessage.Event):
         await lista(ev,bot,msg)
     else:
         await bot.send_message(ev.chat_id,'❗️Acceso Denegado❗️')
-        
-        if '/prueba' in msgText:            
-            bot.sendMessage(update.message.chat.id,'Hola👍')
-            return        
-
-def main():
-    bot_token = os.environ.get('bot_token')
 
 
-    bot = ObigramClient(bot_token)
-    bot.onMessage(onmessage)
-    bot.run()
 
-if __name__ == '__main__':
-    try:
-        main()
-    except:
-        main()
 print('App Run...')
 bot.loop.run_forever()
+
+
