@@ -1,6 +1,5 @@
 import random
 import zipfile
-import os
 from config import*
 
 
