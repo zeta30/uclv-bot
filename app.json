@@ -18,6 +18,10 @@
       "description": "Tamaño de los zips máximo 399",
       "value": "399"
     },
+    "owner": {
+      "description": "Pon tu owner",
+      "value": ""
+    },
     "user_id": {
       "description": "El id de usuario de la nube",
       "value": ""
