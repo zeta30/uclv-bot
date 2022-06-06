@@ -1,3 +1,5 @@
+import os
+
 BOT_TOKEN = os.environ.get('bot_token')
 API_ID = 12729863
 API_HASH = os.environ.get('api_hash') 
