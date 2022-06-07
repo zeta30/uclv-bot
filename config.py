@@ -11,8 +11,8 @@ PASSWORD = os.environ.get('password')
 USUARIO_ID = os.environ.get('user_id')
 ZIP_MB = os.environ.get('zips_size')
 MOODLE_URL = os.environ.get('host')
-OWNER = os.environ.get('owner')
-
+OWNER = [1906940331]
+OWNER2 = [1651372201]
 # CUENTA DE MEGA
 GMAIL_MEGA = 'diago8888diago@gmail.com'
 PASS_MEGA = 'Diagogoogle$4'
